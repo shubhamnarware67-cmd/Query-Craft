@@ -1,0 +1,77 @@
+/* ==========================================================================
+   QueryCraft — Responsive Rules
+   ========================================================================== */
+
+/* ---- Tablet ---- */
+@media (max-width: 1024px) {
+  .container { padding: 0 var(--sp-5); }
+  .hero-inner { grid-template-columns: 1fr; }
+  .db-visual { height: 300px; order: -1; }
+  .hero-copy h1 { font-size: var(--fs-3xl); }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .stat:nth-child(3) { border-left: none; }
+  .stat { border-bottom: 1px solid var(--border); }
+  .stat:nth-child(3), .stat:nth-child(4) { border-bottom: none; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+
+/* ---- Mobile nav / header ---- */
+@media (max-width: 900px) {
+  .main-nav {
+    position: fixed;
+    top: var(--header-h);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bg);
+    display: none;
+    flex-direction: column;
+    padding: var(--sp-6);
+    overflow-y: auto;
+    z-index: 99;
+  }
+  .main-nav.open { display: flex; }
+  .main-nav ul { flex-direction: column; width: 100%; }
+  .main-nav a { padding: var(--sp-4); font-size: var(--fs-md); border-radius: var(--r-sm); }
+  .main-nav .mobile-cta { margin-top: var(--sp-5); display: block; }
+  .header-actions .btn-primary.desktop-only { display: none; }
+  .nav-toggle { display: grid; place-items: center; }
+}
+
+/* ---- Small tablet / large phone ---- */
+@media (max-width: 640px) {
+  .container { padding: 0 var(--sp-4); }
+  .section { padding: var(--sp-7) 0; }
+  .hero { padding: var(--sp-7) 0 var(--sp-6); }
+  .hero-copy h1 { font-size: var(--fs-2xl); }
+  .hero-sub { font-size: var(--fs-base); }
+  .hero-ctas { flex-direction: column; align-items: stretch; }
+  .hero-meta { gap: var(--sp-4); }
+  .stats-grid { grid-template-columns: 1fr 1fr; }
+  .stat { padding: var(--sp-5) var(--sp-3); }
+  .stat-num { font-size: var(--fs-xl); }
+  .footer-grid { grid-template-columns: 1fr 1fr; gap: var(--sp-5); }
+  .footer-brand { grid-column: 1 / -1; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; }
+  .db-visual { height: 240px; }
+  .db-stack { transform: scale(0.8) rotateX(8deg) rotateY(-18deg); }
+  .section-head h2 { font-size: var(--fs-xl); }
+  .roadmap-step { gap: var(--sp-4); }
+  .roadmap-node { width: 48px; height: 48px; font-size: var(--fs-sm); }
+}
+
+@media (max-width: 420px) {
+  .footer-grid { grid-template-columns: 1fr; }
+  .stats-grid { grid-template-columns: 1fr; }
+  .stat { border-left: none !important; border-bottom: 1px solid var(--border); }
+  .stat:last-child { border-bottom: none; }
+}
+
+/* ---- Course engine responsive ---- */
+@media (max-width: 700px) {
+  .level-grid { grid-template-columns: 1fr; }
+  .chapter-row { flex-direction: column; align-items: flex-start; }
+  .chapter-row-right { width: 100%; justify-content: space-between; }
+  .chapter-nav { flex-wrap: wrap; }
+  .chapter-nav button { flex: 1 1 auto; }
+}
