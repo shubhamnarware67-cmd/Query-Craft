@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QueryCraft — Learn SQL. Build Queries. Master Data.</title>
+<meta name="description" content="QueryCraft is an interactive SQL learning platform taking you from complete beginner to industry-ready MySQL developer.">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#051019" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <ellipse cx="12" cy="6" rx="8" ry="3"></ellipse>
+          <path d="M4 6v6c0 1.66 3.58 3 8 3s8-1.34 8-3V6"></path>
+          <path d="M4 12v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6"></path>
+        </svg>
+      </span>
+      <span>Query<span class="logo-text-craft">Craft</span></span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="17" x2="20" y2="17"></line></svg>
+    </button>
+
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="course.html">Course</a></li>
+        <li><a href="practice.html">Practice</a></li>
+        <li><a href="playground.html">Playground</a></li>
+        <li><a href="interview.html">Interview</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <a href="course.html" class="btn btn-primary btn-block mobile-cta">Start Learning</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      </button>
+      <a href="course.html" class="btn btn-primary desktop-only">Start Learning</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">Beginner → Industry Level</span>
+        <h1>Master SQL From <span class="highlight">Zero to Industry Level</span></h1>
+        <p class="hero-sub">Learn. Practice. Query. Master. A complete, interactive path through MySQL — from your first SELECT to production-grade optimization.</p>
+        <div class="hero-ctas">
+          <a href="course.html" class="btn btn-primary btn-lg">Start Learning</a>
+          <a href="course.html" class="btn btn-ghost btn-lg">Explore Course</a>
+        </div>
+        <ul class="hero-meta">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>No sign-up required</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Progress saved locally</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>Built for interviews</li>
+        </ul>
+      </div>
+
+      <div class="db-visual reveal" aria-hidden="true">
+        <div class="db-glow"></div>
+        <div class="db-stack">
+          <div class="db-disc"></div>
+          <div class="db-disc"></div>
+          <div class="db-disc"></div>
+          <div class="db-disc"></div>
+        </div>
+        <div class="db-badge db-badge--select">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v4H4zM4 10h10v10H4z"></path></svg>
+          SELECT * FROM users
+        </div>
+        <div class="db-badge db-badge--join">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="12" r="6"></circle><circle cx="16" cy="12" r="6"></circle></svg>
+          INNER JOIN
+        </div>
+        <div class="db-badge db-badge--rows">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h18v18H3z"></path><path d="M3 9h18M3 15h18M9 3v18"></path></svg>
+          120 rows
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="stats-strip">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat"><span class="stat-num">100+</span><span class="stat-label">Lessons</span></div>
+        <div class="stat"><span class="stat-num">500+</span><span class="stat-label">Practice Questions</span></div>
+        <div class="stat"><span class="stat-num">200+</span><span class="stat-label">Interview Questions</span></div>
+        <div class="stat"><span class="stat-num">10</span><span class="stat-label">Levels · Beginner → Industry</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ROADMAP ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head observe-fade">
+        <span class="eyebrow">The Path</span>
+        <h2>One roadmap, start to finish</h2>
+        <p>Every level unlocks the next — a straight line from your first table to production-grade SQL.</p>
+      </div>
+
+      <div class="roadmap observe-fade">
+        <ol class="roadmap-track">
+          <li class="roadmap-step">
+            <div class="roadmap-node">1</div>
+            <div class="roadmap-body"><h3>Foundation</h3><p>Databases, DBMS, RDBMS, and how MySQL fits in.</p></div>
+          </li>
+          <li class="roadmap-step">
+            <div class="roadmap-node">2</div>
+            <div class="roadmap-body"><h3>Beginner</h3><p>CREATE, SELECT, WHERE, ORDER BY, and core CRUD.</p></div>
+          </li>
+          <li class="roadmap-step">
+            <div class="roadmap-node">3</div>
+            <div class="roadmap-body"><h3>Intermediate</h3><p>Aggregates, GROUP BY, string and date functions.</p></div>
+          </li>
+          <li class="roadmap-step">
+            <div class="roadmap-node">4</div>
+            <div class="roadmap-body"><h3>Advanced</h3><p>Subqueries, CTEs, window functions, and joins mastery.</p></div>
+          </li>
+          <li class="roadmap-step">
+            <div class="roadmap-node">5</div>
+            <div class="roadmap-body"><h3>Industry</h3><p>Transactions, indexing, security, and query optimization.</p></div>
+          </li>
+          <li class="roadmap-step">
+            <div class="roadmap-node">6</div>
+            <div class="roadmap-body"><h3>Projects</h3><p>Five real-world databases, built end to end.</p></div>
+          </li>
+          <li class="roadmap-step">
+            <div class="roadmap-node">7</div>
+            <div class="roadmap-body"><h3>Final Assessment</h3><p>A capstone e-commerce system and industry scenarios.</p></div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHAT'S INSIDE ============ -->
+  <section class="section" style="padding-top:0;">
+    <div class="container">
+      <div class="section-head observe-fade">
+        <span class="eyebrow">What's Inside</span>
+        <h2>Everything one platform needs</h2>
+        <p>Structured lessons, a query simulator, interview prep, and real projects — in one place.</p>
+      </div>
+      <div class="observe-fade" style="display:grid;grid-template-columns:repeat(4,1fr);gap:var(--sp-5);">
+        <div class="card">
+          <h3 style="font-size:var(--fs-md);margin-bottom:var(--sp-2);">Course</h3>
+          <p style="color:var(--text-muted);font-size:var(--fs-sm);">122 chapters across 10 levels, each with examples, mistakes, and a quiz.</p>
+        </div>
+        <div class="card">
+          <h3 style="font-size:var(--fs-md);margin-bottom:var(--sp-2);">Playground</h3>
+          <p style="color:var(--text-muted);font-size:var(--fs-sm);">A browser SQL learning simulator to test queries against sample data.</p>
+        </div>
+        <div class="card">
+          <h3 style="font-size:var(--fs-md);margin-bottom:var(--sp-2);">Interview Prep</h3>
+          <p style="color:var(--text-muted);font-size:var(--fs-sm);">200+ questions from basics to industry scenarios, with detailed answers.</p>
+        </div>
+        <div class="card">
+          <h3 style="font-size:var(--fs-md);margin-bottom:var(--sp-2);">Projects</h3>
+          <p style="color:var(--text-muted);font-size:var(--fs-sm);">Five real-world databases and a final capstone system to design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-mark">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#051019" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <ellipse cx="12" cy="6" rx="8" ry="3"></ellipse>
+              <path d="M4 6v6c0 1.66 3.58 3 8 3s8-1.34 8-3V6"></path>
+              <path d="M4 12v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6"></path>
+            </svg>
+          </span>
+          <span>Query<span class="logo-text-craft">Craft</span></span>
+        </a>
+        <p class="footer-tagline">Learn SQL. Build Queries. Master Data.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Learn</h4>
+        <ul>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="practice.html">Practice</a></li>
+          <li><a href="playground.html">Playground</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Prepare</h4>
+        <ul>
+          <li><a href="interview.html">Interview Questions</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Platform</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> QueryCraft. Created by <strong>Shubham Narware</strong>.</span>
+      <span>Built with HTML, CSS &amp; Vanilla JavaScript.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
