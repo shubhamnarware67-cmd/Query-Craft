@@ -1,0 +1,49 @@
+<svg width="1400" height="430" viewBox="0 0 1400 430" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="30" x2="1320" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07151E"/>
+      <stop offset="0.55" stop-color="#0B2631"/>
+      <stop offset="1" stop-color="#102C3D"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="770" y1="100" x2="1210" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#52F2C2"/>
+      <stop offset="1" stop-color="#00B89C"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="round"><rect width="1400" height="430" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1400" height="430" fill="url(#bg)"/>
+    <circle cx="1175" cy="38" r="245" fill="#00D4A8" fill-opacity=".08"/>
+    <circle cx="1280" cy="355" r="190" fill="#7C3AED" fill-opacity=".13"/>
+    <path d="M0 370C210 300 310 445 545 355C755 275 864 333 1055 285C1205 247 1300 270 1400 226V430H0V370Z" fill="#06141C" fill-opacity=".7"/>
+    <g opacity=".2" stroke="#75F7D0">
+      <path d="M860 0V430M1000 0V430M1140 0V430M1280 0V430"/>
+      <path d="M760 70H1400M760 190H1400M760 310H1400"/>
+    </g>
+    <g transform="translate(92 91)">
+      <circle cx="35" cy="35" r="35" fill="url(#mint)" filter="url(#glow)"/>
+      <ellipse cx="35" cy="26" rx="18" ry="7" stroke="#07151E" stroke-width="4"/>
+      <path d="M17 26V45C17 49 25 52 35 52C45 52 53 49 53 45V26M17 36C17 40 25 43 35 43C45 43 53 40 53 36" stroke="#07151E" stroke-width="4"/>
+    </g>
+    <text x="92" y="205" fill="#F3FFFC" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="800" letter-spacing="-2">QueryCraft</text>
+    <text x="97" y="255" fill="#8DEFD4" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="600">Learn SQL. Build Queries. Master Data.</text>
+    <text x="97" y="309" fill="#B9C8CC" font-family="Arial, Helvetica, sans-serif" font-size="18">From your first SELECT to production-grade query thinking.</text>
+    <g transform="translate(845 86) rotate(-5)">
+      <rect width="420" height="235" rx="18" fill="#0B1B24" stroke="#3EE6BC" stroke-opacity=".7" stroke-width="2"/>
+      <circle cx="28" cy="28" r="6" fill="#FF6B7A"/><circle cx="50" cy="28" r="6" fill="#FFC857"/><circle cx="72" cy="28" r="6" fill="#52F2C2"/>
+      <text x="28" y="78" fill="#52F2C2" font-family="monospace" font-size="18">SELECT</text>
+      <text x="112" y="78" fill="#F2F7F7" font-family="monospace" font-size="18">confidence</text>
+      <text x="28" y="112" fill="#52F2C2" font-family="monospace" font-size="18">FROM</text>
+      <text x="91" y="112" fill="#F2F7F7" font-family="monospace" font-size="18">sql_learners</text>
+      <text x="28" y="146" fill="#52F2C2" font-family="monospace" font-size="18">WHERE</text>
+      <text x="106" y="146" fill="#F2F7F7" font-family="monospace" font-size="18">fear = 0;</text>
+      <rect x="28" y="177" width="364" height="1" fill="#34505A"/>
+      <text x="28" y="207" fill="#FFC857" font-family="monospace" font-size="15">✓ Query executed. Confidence found.</text>
+    </g>
+    <text x="97" y="367" fill="#6E8A92" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="2">122 CHAPTERS  •  PRACTICE  •  PLAYGROUND  •  INTERVIEW PREP</text>
+  </g>
+</svg>

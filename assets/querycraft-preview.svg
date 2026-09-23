@@ -1,0 +1,39 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="surface" x1="100" y1="20" x2="1120" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102A35"/>
+      <stop offset="1" stop-color="#07151E"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#001016" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <rect x="12" y="12" width="1176" height="476" rx="24" fill="url(#surface)" stroke="#2F5961" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="12" y="12" width="1176" height="58" rx="24" fill="#0B202A"/>
+  <path d="M12 70H1188" stroke="#2F5961"/>
+  <circle cx="44" cy="41" r="7" fill="#FF6B7A"/><circle cx="69" cy="41" r="7" fill="#FFC857"/><circle cx="94" cy="41" r="7" fill="#52F2C2"/>
+  <text x="135" y="48" fill="#E7FFFA" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">QueryCraft / SQL Playground</text>
+  <rect x="42" y="98" width="425" height="342" rx="14" fill="#07151E" stroke="#234751"/>
+  <text x="68" y="135" fill="#819BA2" font-family="monospace" font-size="14">-- Try a real query</text>
+  <text x="68" y="177" fill="#52F2C2" font-family="monospace" font-size="17">SELECT</text>
+  <text x="151" y="177" fill="#F1FAF7" font-family="monospace" font-size="17">customer_name,</text>
+  <text x="68" y="209" fill="#F1FAF7" font-family="monospace" font-size="17">       SUM(amount) AS total</text>
+  <text x="68" y="241" fill="#52F2C2" font-family="monospace" font-size="17">FROM</text>
+  <text x="128" y="241" fill="#F1FAF7" font-family="monospace" font-size="17">orders</text>
+  <text x="68" y="273" fill="#52F2C2" font-family="monospace" font-size="17">GROUP BY</text>
+  <text x="165" y="273" fill="#F1FAF7" font-family="monospace" font-size="17">customer_name;</text>
+  <rect x="68" y="311" width="150" height="42" rx="8" fill="#00D4A8"/>
+  <text x="99" y="338" fill="#051019" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800">▶ Run Query</text>
+  <text x="68" y="390" fill="#819BA2" font-family="Arial, Helvetica, sans-serif" font-size="14">No database setup. No panic.</text>
+  <rect x="503" y="98" width="655" height="342" rx="14" fill="#0B202A" stroke="#234751"/>
+  <text x="532" y="137" fill="#E7FFFA" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">Query result</text>
+  <rect x="532" y="164" width="596" height="45" rx="6" fill="#133540"/>
+  <text x="555" y="193" fill="#8DEFD4" font-family="monospace" font-size="15">customer_name</text>
+  <text x="848" y="193" fill="#8DEFD4" font-family="monospace" font-size="15">total</text>
+  <path d="M532 219H1128M532 274H1128M532 329H1128" stroke="#284E58"/>
+  <text x="555" y="254" fill="#E7FFFA" font-family="monospace" font-size="15">Aarav</text><text x="848" y="254" fill="#FFC857" font-family="monospace" font-size="15">₹12,450</text>
+  <text x="555" y="309" fill="#E7FFFA" font-family="monospace" font-size="15">Meera</text><text x="848" y="309" fill="#FFC857" font-family="monospace" font-size="15">₹9,890</text>
+  <text x="555" y="364" fill="#E7FFFA" font-family="monospace" font-size="15">Kabir</text><text x="848" y="364" fill="#FFC857" font-family="monospace" font-size="15">₹7,250</text>
+  <rect x="532" y="397" width="596" height="1" fill="#284E58"/>
+  <text x="532" y="425" fill="#52F2C2" font-family="Arial, Helvetica, sans-serif" font-size="14">✓ 3 rows returned — your query survived!</text>
+</svg>
