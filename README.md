@@ -10,8 +10,8 @@
 `SELECT * FROM confused_beginner` to `SELECT * FROM industry_ready_developer`.
 
 <p>
-  <a href="https://github.com/shubhamnarware67-cmd/Query-Craft">
-    <img src="https://img.shields.io/badge/🌐_Live_Demo-Coming_Soon-00d4a8?style=for-the-badge" alt="Live demo coming soon">
+  <a href="https://shubhamnarware67-cmd.github.io/Query-Craft/">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Coming_Soon-00d4a8?style=for-the-badge" alt="Live demo ">
   </a>
   <a href="https://github.com/shubhamnarware67-cmd/Query-Craft">
     <img src="https://img.shields.io/badge/💻_Source_Code-GitHub-111827?style=for-the-badge&logo=github" alt="Source code">
